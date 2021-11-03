@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-weight: ligther;
+}
+
+.container{
+  margin: 0 auto;
+  width:350px;
+  position: relative;
+  top: 40px;
+}
+
+.topBar{
+  height: 50px;
+  background-color: rgb(47, 185, 228);
+  border: 2px solid rgb(47, 185, 228);
+  padding-left: 20px;
+}
+.bottomBar{
+  height:150px;
+  display: flex;
+  flex-direction:  column;
+  border: 2px solid grey;
+  border-top: none;
+  padding-left: 20px;
+}
+
+#avatar{
+  height: 60px;
+  width: 60px;
+  border: 1px solid grey;
+  padding: 1px;
+  border-radius: 50%;
+  position: relative;
+  top:-30px;
+}
+#mapMarker{
+  height: 15px;
+  width:10px;
+  position: relative;
+  margin-right: 10px;
+}
+#gear{
+  height: 12px;
+  width: 12px;
+  margin-right: 10px;
+}
+
+.infoContent{
+  position: relative;
+  top: -27px;  
+}
+
+.location{
+  display: flex;
+  margin: 5px 5px 5px 0px;
+}
+ 
+.editSection{
+  display: flex;
+  align-items: center;
+  margin: 5px 5px 5px 0px;
+}
+
+p, a{
+  font-size:11px;
+  font-weight: bold;
+}
